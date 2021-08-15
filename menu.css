@@ -1,0 +1,116 @@
+header{
+    text-align: center;
+    width: 100vw;
+    padding: 50px 0px;
+}
+
+
+.chick{
+    display: grid;
+    height: 30px;
+    justify-content: center;
+    align-content: center;
+    border-bottom: black solid 2px;
+    border-left: black solid 2px;
+    margin-left:400px ;
+    background-color: coral;
+    font-weight: bold;
+    font-size: 20px;
+    box-sizing: content-box;
+}
+
+.sus{
+    display: grid;
+    height: 30px;
+    justify-content: center;
+    align-content: center;
+    border-bottom: black solid 2px;
+    border-left: black solid 2px;
+    margin-left:400px ;
+    background-color: coral;
+    font-weight: bold;
+    font-size: 20px;
+    box-sizing: content-box;
+}
+
+
+
+.bee{
+    display: grid;
+    height: 30px;
+    justify-content: center;
+    align-content: center;
+    border-bottom: black solid 2px;
+    border-left: black solid 2px;
+    margin-left:400px ;
+    background-color: coral;
+    font-weight: bold;
+    font-size: 20px;
+    box-sizing: content-box;
+}
+
+
+.menu{
+    width: 100vw;
+    text-align: center;
+    margin: 50px auto;
+}
+
+
+
+
+.chicken{
+    position: relative;
+    /* top: 18px; */
+    display: inline-grid;
+    height: 150px;
+    width: 500px;
+    background-color: gray;
+    border: black solid 2px;
+    margin: 0px 30px;
+}
+
+.sushi{
+    display: inline-grid;
+    height: 150px;
+    width: 500px;
+    background-color: gray;
+    border: black solid 2px;
+    margin: 0px 30px;
+}
+
+.beef{
+    display: inline-grid;
+    height: 150px;
+    width: 500px;
+    background-color: gray;
+    border: black solid 2px;
+    margin: 0px 30px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media  screen and (max-width: 1699px){
+    .sushi{
+        height: 150px;
+        width: 500px;
+        background-color: gray;
+        border: black solid 2px;
+        margin: 30px 30px;
+    }
+    }
+ 
+ @media  screen and (max-width: 1131px){ 
+    .beef{
+        height: 150px;
+        width: 500px;
+        background-color: gray;
+        border: black solid 2px;
+        margin: 30px 30px;
+    }
+    }
+    
+   
