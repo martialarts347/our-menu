@@ -7,7 +7,7 @@ h1{
     position: absolute;
 }
 .button{
-    background-image: url(New/bt.png);
+    background-image: url(bt.png);
     background-size: 40px 40px;
     background-repeat:no-repeat ;
 background-position: center;
@@ -139,8 +139,8 @@ padding:20px;
 .our{
     position: absolute; 
     width: 100vw;
-    left: 44vw; 
-    top: 80px;
+    left: 46vw; 
+    top: 10vh;
     display: block;
     font-size:30px ;
     font-family: arial;
@@ -149,7 +149,7 @@ padding:20px;
 
 @media (max-width:1100px){
     .our{
-        top: 120px;
+        top: 20vh;
         width: 30vw;
         left: 42vw;
     }
