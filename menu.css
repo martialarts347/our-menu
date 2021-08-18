@@ -7,7 +7,7 @@ h1{
     position: absolute;
 }
 .button{
-    background-image: url(New/bt.png);
+    background-image: url(bt.png);
     background-size: 40px 40px;
     background-repeat:no-repeat ;
 background-position: center;
@@ -140,7 +140,7 @@ padding:20px;
     position: absolute; 
     width: 100vw;
     left: 46vw; 
-    top: 10vh;
+    top: 15vh;
     display: block;
     font-size:30px ;
     font-family: arial;
