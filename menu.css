@@ -1,116 +1,159 @@
-header{
-    text-align: center;
-    width: 100vw;
-    padding: 50px 0px;
-}
-
-
-.chick{
-    display: grid;
-    height: 30px;
-    justify-content: center;
-    align-content: center;
-    border-bottom: black solid 2px;
-    border-left: black solid 2px;
-    margin-left:400px ;
-    background-color: coral;
-    font-weight: bold;
-    font-size: 20px;
-    box-sizing: content-box;
-}
-
-.sus{
-    display: grid;
-    height: 30px;
-    justify-content: center;
-    align-content: center;
-    border-bottom: black solid 2px;
-    border-left: black solid 2px;
-    margin-left:400px ;
-    background-color: coral;
-    font-weight: bold;
-    font-size: 20px;
-    box-sizing: content-box;
-}
-
-
-
-.bee{
-    display: grid;
-    height: 30px;
-    justify-content: center;
-    align-content: center;
-    border-bottom: black solid 2px;
-    border-left: black solid 2px;
-    margin-left:400px ;
-    background-color: coral;
-    font-weight: bold;
-    font-size: 20px;
-    box-sizing: content-box;
-}
-
-
-.menu{
-    width: 100vw;
-    text-align: center;
-    margin: 50px auto;
-}
-
-
-
-
-.chicken{
-    position: relative;
-    /* top: 18px; */
-    display: inline-grid;
-    height: 150px;
-    width: 500px;
-    background-color: gray;
-    border: black solid 2px;
-    margin: 0px 30px;
-}
-
-.sushi{
-    display: inline-grid;
-    height: 150px;
-    width: 500px;
-    background-color: gray;
-    border: black solid 2px;
-    margin: 0px 30px;
-}
-
-.beef{
-    display: inline-grid;
-    height: 150px;
-    width: 500px;
-    background-color: gray;
-    border: black solid 2px;
-    margin: 0px 30px;
-}
-
 *{
-    margin: 0px;
+    margin:0px;
     padding: 0px;
 }
 
-@media  screen and (max-width: 1699px){
-    .sushi{
-        height: 150px;
-        width: 500px;
-        background-color: gray;
-        border: black solid 2px;
-        margin: 30px 30px;
+h1{
+    position: absolute;
+}
+.button{
+    background-image: url(New/bt.png);
+    background-size: 40px 40px;
+    background-repeat:no-repeat ;
+background-position: center;
+border: 2px solid gray;
+    height: 45px;
+    width: 45px;
+    margin-right:10px ;
+    margin-top: 5px;
+    position: relative;
+     top: 6px;
+    left: 88vw;
+}
+
+.wrapper{
+    position: relative;
+    background-color: chocolate;
+height: 10vh;
+width: 100vw;
+}
+
+
+
+.button:hover {
+    background-color:aqua ;
+    cursor:pointer;
+}
+
+.wrapper div div{
+    width: 5000px;
+    position: relative;
+    right: 99vw;
+}
+
+.wrapper div div ul{
+    margin-top: 45px;
+    list-style: none;
+    display: none;
+    position: relative;
+    left: 99vw;
+}
+
+.wrapper div div ul li{
+    display: block;
+}
+
+@media (max-width:1100px){
+.button:hover div ul{
+    display: block;
+}
+}
+
+@media (max-width:1100px) {
+    .button:hover div{
+        background-color: chocolate;
+    box-sizing: border-box;
+    }
+}
+
+@media (min-width:1100px){
+    .button{
+        display: none;
     }
     }
- 
- @media  screen and (max-width: 1131px){ 
-    .beef{
-        height: 150px;
-        width: 500px;
-        background-color: gray;
-        border: black solid 2px;
-        margin: 30px 30px;
+
+body{
+    overflow: scroll;
+}
+
+.chick{
+
+
+    margin: 50px 10px 0px 10px;
+    border: 1px solid aqua;
+    width: 65vw;
+
+}
+
+.chick div{
+text-align: center;
+    right: 0px;
+}
+
+.chick p{
+padding:20px;    
+}
+
+.bee{
+
+
+    margin: 50px 10px 0px 10px;
+    border: 1px solid aqua;
+    width: 65vw;
+}
+
+.bee div{
+text-align: center;
+    right: 0px;
+}
+
+.bee p{
+padding:20px;    
+}
+
+.sus{
+
+position: relative;
+    margin: 50px 10px 0px 10px;
+    border: 1px solid aqua;
+    width: 65vw;
+}
+
+.sus div{
+    right: 0px;
+    text-align: center;
+}
+
+.sus p{
+padding:20px;    
+}
+
+#contain{
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+
+.our{
+    position: absolute; 
+    width: 100vw;
+    left: 44vw; 
+    top: 80px;
+    display: block;
+    font-size:30px ;
+    font-family: arial;
+    font-weight: bold;
+}
+
+@media (max-width:1100px){
+    .our{
+        top: 120px;
+        width: 30vw;
+        left: 42vw;
     }
+    #contain{
+        margin-top:60px ;
     }
-    
-   
+}
